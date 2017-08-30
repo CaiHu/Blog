@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+	<!-- <filter>
+	<filter-name>characterFilter</filter-name>
+	<filter-class>com.lql.filter.CharacterFilter</filter-class>
+	</filter>
+	<filter-mapping>
+	<filter-name>characterFilter</filter-name>
+	<url-pattern>/*</url-pattern>
+	</filter-mapping> -->
+  <servlet>
+    <description>testservlet</description>
+    <display-name>testservlet</display-name>
+    <servlet-name>RegisterServelet</servlet-name>
+    <servlet-class>com.lql.servlet.RegisterServelet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>testservlet</description>
+    <display-name>testservlet</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.lql.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>testservlet</description>
+    <display-name>testservlet</display-name>
+    <servlet-name>AddArticleServlet</servlet-name>
+    <servlet-class>com.lql.servlet.AddArticleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>testservlet</description>
+    <display-name>testservlet</display-name>
+    <servlet-name>ArticleListServlet</servlet-name>
+    <servlet-class>com.lql.servlet.ArticleListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>testservlet</description>
+    <display-name>testservlet</display-name>
+    <servlet-name>ArticleDetailServlet</servlet-name>
+    <servlet-class>com.lql.servlet.ArticleDetailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>testservlet</description>
+    <display-name>testservlet</display-name>
+    <servlet-name>AddCommentServlet</servlet-name>
+    <servlet-class>com.lql.servlet.AddCommentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>testservlet</description>
+    <display-name>testservlet</display-name>
+    <servlet-name>FileUpServlet</servlet-name>
+    <servlet-class>com.lql.servlet.FileUpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>testservlet</description>
+    <display-name>testservlet</display-name>
+    <servlet-name>FileDownServlet</servlet-name>
+    <servlet-class>com.lql.servlet.FileDownServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>testservlet</description>
+    <display-name>testservlet</display-name>
+    <servlet-name>FileListServlet</servlet-name>
+    <servlet-class>com.lql.servlet.FileListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>testservlet</description>
+    <display-name>testservlet</display-name>
+    <servlet-name>IndexServlet</servlet-name>
+    <servlet-class>com.lql.servlet.IndexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>testservlet</description>
+    <display-name>testservlet</display-name>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.lql.servlet.LogoutServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>RegisterServelet</servlet-name>
+    <url-pattern>/servlet/RegisterServelet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddArticleServlet</servlet-name>
+    <url-pattern>/servlet/AddArticleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ArticleListServlet</servlet-name>
+    <url-pattern>/servlet/ArticleListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ArticleDetailServlet</servlet-name>
+    <url-pattern>/servlet/ArticleDetailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCommentServlet</servlet-name>
+    <url-pattern>/servlet/AddCommentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileUpServlet</servlet-name>
+    <url-pattern>/servlet/FileUpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileDownServlet</servlet-name>
+    <url-pattern>/servlet/FileDownServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileListServlet</servlet-name>
+    <url-pattern>/servlet/FileListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IndexServlet</servlet-name>
+    <url-pattern>/servlet/IndexServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/servlet/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
